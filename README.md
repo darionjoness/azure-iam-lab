@@ -71,6 +71,16 @@ Screenshots are in the `/screenshots` folder:
 
 ---
 
+## Free Tier Documentation
+> **Note:** Certain security features require Azure AD Premium licenses and are not available in the Free Tier.  
+> If I had a full subscription, I would have configured the following additional features for stronger security:  
+> - **Multi-Factor Authentication (MFA)** for all users  
+> - **Conditional Access** with location-based access policies to restrict logins to trusted IP ranges  
+> - **Privileged Identity Management (PIM)** to enable just-in-time privileged access for Cloud Admins and other sensitive roles  
+
+This documentation shows awareness of **best practices and enterprise security** even when restricted by Free Tier limitations.
+
+---
+
 ## Notes
-- Conditional Access and PIM features are **Premium only**; steps are documented for Free Tier users
 - Focused on **Free Tier-compatible hands-on steps** while demonstrating AZ-104 IAM concepts
