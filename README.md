@@ -44,9 +44,9 @@ This lab demonstrates **Azure Identity & Access Management (IAM)** using **Azure
 5. Enabled **system-assigned Managed Identity** on the VM
 6. Assigned subscription-level roles: **Cloud Admins → Contributor + User Access Admin**
 7. Assigned resource group roles:
-   - Helpdesk → **VM Contributor**
-   - App Support → **Contributor**
-   - Employees → **None**
+Helpdesk → **VM Contributor**
+App Support → **Contributor**
+Employees → **None**
 8. Assigned **Storage Blob Data Reader** role to VM’s Managed Identity for `stsecureaccess`
 9. Validated role enforcement by logging in as each user
 10. Documented **Conditional Access & location-based access** (Free Tier)
@@ -64,10 +64,6 @@ This lab demonstrates **Azure Identity & Access Management (IAM)** using **Azure
 
 ## Screenshots
 Screenshots are in the `/screenshots` folder:
-- **Users & Groups** (`user-groups.png`)
-- **VM with Managed Identity** (`vm-managed-identity.png`)
-- **Role Assignments** (`role-assignment.png`)
-- **Storage Access from Managed Identity** (`storage-access.png`)
 
 ---
 
